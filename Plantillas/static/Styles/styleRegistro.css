@@ -1,0 +1,70 @@
+
+/* Definir todos los divs con posicion absoluta. Quedan liberados de otros divs para moverlos con libertad*/
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.Todo{
+  background-image: url("../Imagenes/uni.jpg");
+  background-repeat: round;
+  width:100%;
+  height:120%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+
+}
+
+
+.registro{
+  width: 40%;
+  height: 100%;
+  margin-left: 30%;
+  background: #000c;
+  color: #fff;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0px 5px;
+}
+
+.registro input {
+  width: 50%;
+}
+
+.registro input[type="text"], .registro input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.registro input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.registro input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.registro a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.registro a:hover {
+  color: #fff;
+}

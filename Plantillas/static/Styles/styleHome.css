@@ -1,0 +1,13 @@
+
+/* Definir todos los divs con posicion absoluta. Quedan liberados de otros divs para moverlos con libertad*/
+
+.Todo{
+  background-image: url("../Imagenes/uni.jpg");
+  background-repeat: round;
+  width:100%;
+  height:100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+
+}
