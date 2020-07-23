@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Proyecto</title>
+    {% load static %}
+  <link rel="stylesheet" href="{% static 'Styles/styleHome.css' %}">
+  </head>
+  <body>
+
+    <div class="Todo">
+
+      <h2>Área para miembros</h2>
+
+<p>
+    Bienvenido <b>{{request.user.username}}</b>,
+    esta página es exclusiva para usuarios registrados.
+</p>
+
+<hr />
+<a href="/logout">Cerrar sesión</a>
+
+      <ul class="BarraSuperior">
+
+
+    <!--FIN TODOO -->
+    </div>
+
+
+  </body>
+</html>
