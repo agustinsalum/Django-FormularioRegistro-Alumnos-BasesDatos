@@ -1,0 +1,2 @@
+
+Contiene el index, home y registro
